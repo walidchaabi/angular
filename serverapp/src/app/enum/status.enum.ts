@@ -1,0 +1,1 @@
+export type Status = 'ALL' | 'SERVER_UP' | 'SERVER_DOWN';

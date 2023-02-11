@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/angular-notifier/styles.css';
+
+body{
+    background: #edf1f5;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background:  #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.btn{
+    margin-top: 3px;
+    height: 40px;
+    width: 120px;
+}
+/* .fade{
+    margin: 0 auto; 
+    display: flex !important; 
+    justify-content: center;
+    width: 50%;
+} */
