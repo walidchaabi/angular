@@ -22,7 +22,7 @@ export class LoginComponent {
     }
     
     login(){
-      this.http.post<any>("http://192.168.100.87:5000/api/login", this.loginForm.value)
+      this.http.post<any>("http://localhost:8080/api/v1/auth/login", this.loginForm.value)
         .subscribe(res=>{
           if(res) {
             localStorage.setItem('token', res.token)
